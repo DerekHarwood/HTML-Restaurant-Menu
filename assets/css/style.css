@@ -58,13 +58,11 @@ nav a:hover {
     background-color: white;
 }
 
-#banner img {
-    width: 60%;
-    height: auto;
-}
+
 
 .service {
     display: inline-block;
+    text-align: center;
     background-color: white;
     border: 5px solid green;
     border-radius: 5px;
@@ -83,4 +81,18 @@ td,
 th {
     border: 1px solid black;
     padding: 5px;
+}
+.current-page {
+    color: blue;
+    background-color: beige;
+    padding: 10px;
+    list-style-type: none;
+    text-align: center;
+    display: inline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.banner-holiday {
+    background-color: black;
+    color: white;
+    font-size: x-large;
 }
